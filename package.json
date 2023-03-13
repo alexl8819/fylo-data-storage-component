@@ -1,0 +1,21 @@
+{
+  "name": "fylo-data-storage-component-master",
+  "version": "1.0.0",
+  "description": "![Design preview for the Fylo data storage component coding challenge](./design/desktop-preview.jpg)",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build --dist-dir public"
+  },
+  "author": "slightlyfunctional",
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "modern-css-reset": "^1.4.0",
+    "parcel": "^2.8.3"
+  },
+  "dependencies": {
+    "@fontsource/raleway": "^4.5.12"
+  }
+}
