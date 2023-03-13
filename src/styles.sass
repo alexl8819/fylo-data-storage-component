@@ -12,13 +12,18 @@
   align-items: center
   min-width: 320px
   min-height: 100vh
+  background-color: var(--very-dark-blue)
   background-image: url('./images/bg-mobile.png')
   background-repeat: no-repeat
+  background-size: cover
 
   @media screen and (min-width: 767px)
-    background-color: var(--very-dark-blue)
     background-image: url('./images/bg-desktop.png')
-    background-position-y: bottom -3.75rem
+    background-size: contain
+    background-position-y: bottom 36%
+
+  @media screen and (min-width: 1280px)
+    background-position-y: bottom 3%
 
 .storage
   display: flex
