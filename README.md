@@ -47,7 +47,7 @@ I learned more about CSS animations.
 
 ### Continued development
 
-I focused on trying to adhere to design while adding small animations in CSS. I used CSS for animating a mock loading skeleton for the storage usage bar while using js to animate the actual bar. In the future I will aim to use only CSS.
+I focused on trying to adhere to design while adding small animations in CSS. I used CSS for animating a mock loading skeleton placeholder for the storage usage bar while using js to animate the actual bar. In the future I will aim to use only CSS.
 
 ## Author
 
