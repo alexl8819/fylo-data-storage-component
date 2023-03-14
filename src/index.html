@@ -36,27 +36,30 @@
           </div>
         </div>
       </header>
-      <div class="storage__content">
-        <section>
-          <h1 class="storage__message">You’ve used <span class="storage__current">815 GB</span> of your storage</h1>
-          <div>
-            <div class="storage__total">
-              <div class="storage__used">
-                <div class="storage__marker"></div>
+      <div class="storage__main">
+        <div class="storage__loading"></div>
+        <div class="storage__content">
+          <section>
+            <h1 class="storage__message">You’ve used <span class="storage__current">815 GB</span> of your storage</h1>
+            <div>
+              <div class="storage__total">
+                <div class="storage__used">
+                  <div class="storage__marker"></div>
+                </div>
+              </div>
+              <div class="storage__units">
+                <span class="storage__unit">0 GB</span>
+                <span class="storage__unit">1000 GB</span>
               </div>
             </div>
-            <div class="storage__units">
-              <span class="storage__unit">0 GB</span>
-              <span class="storage__unit">1000 GB</span>
+          </section>
+          <div class="storage__quota">
+            <div>
+              <span class="quota__amount">185</span>
+              <span class="quota__message">GB Left</span>
             </div>
+            <div class="quota__caret"></div>
           </div>
-        </section>
-        <div class="storage__quota">
-          <div>
-            <span class="quota__amount">185</span>
-            <span class="quota__message">GB Left</span>
-          </div>
-          <div class="quota__caret"></div>
         </div>
       </div>
     </div>
@@ -65,5 +68,6 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">slightlyfunctional</a>.
   </footer>
+  <script type="module" src="storage.js"></script>
 </body>
 </html>

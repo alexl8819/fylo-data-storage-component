@@ -38,7 +38,7 @@
     align-items: end
     max-width: 54rem
 
-  .storage__header, .storage__content
+  .storage__header, .storage__main
     background-color: var(--dark-blue)
     border-radius: 8px
 
@@ -77,28 +77,51 @@
       &:last-child
         margin-left: 15px
 
-  .storage__content
-    display: flex
-    flex-direction: column
-    max-height: 150px
+  .storage__main
     width: 100%
     padding-left: 40px
     padding-right: 40px
     padding-top: 25px
     padding-bottom: 25px
+    max-height: 150px
+  
+    @keyframes loading
+      0%
+        background-position: -500px 0
+      100%
+        background-position: 500px 0
+    
+    .storage__loading
+      display: none
+      animation-duration: 1.25s
+      animation-name: loading
+      animation-iteration-count: infinite
+      animation-direction: alternate
+      background: linear-gradient(to right, var(--dark-blue), var(--very-dark-blue), var(--dark-blue))
+      height: 32px
+      position: relative
+      border-radius: 8px
+
+  .storage__content
     text-align: center
+    display: flex
+    flex-direction: column
+    max-height: auto
 
     @media screen and (min-width: 767px)
       flex-direction: column-reverse
       padding-top: 40px
       padding-bottom: 40px
+      margin-top: -105px
       text-align: left
 
     .storage__message
       font-size: 0.85rem
+      color: var(--pale-blue)
+      margin-bottom: 15px
+      font-weight: 400
 
     .storage__current
-      color: var(--pale-blue)
       font-weight: 700
 
     .storage__total, .storage__used
@@ -107,7 +130,6 @@
     .storage__total
       height: 16px
       width: 100%
-      margin-top: 12px
       padding: 2px
       background-color: var(--very-dark-blue)
 
