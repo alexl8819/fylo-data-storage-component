@@ -24,11 +24,12 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot](./screenshot.png)
+![Mobile Screenshot](./screenshots/mobile.png)
+![Desktop Screenshot](./screenshots/desktop.png)
 
 ### Links
 
-- Live Site URL: [Fylo Data Storage Component](https://slightlyfunctional.gitlab.io/fylo-data-storage-component/)
+- Live Site URL: [Fylo Data Storage Component](https://alexl8819.github.io/fylo-data-storage-component/)
 
 ## My process
 
@@ -47,9 +48,8 @@ I learned more about CSS animations.
 
 ### Continued development
 
-I focused on trying to adhere to design while adding small animations in CSS. I used CSS for animating a mock loading skeleton placeholder for the storage usage bar while using js to animate the actual bar. In the future I will aim to use only CSS.
+I focused on trying to adhere to design while adding small animations in CSS. I used CSS for animating a mock loading skeleton placeholder, while for the storage usage bar I opted to use js to animate the actual bar. In the future I my aim is to use only CSS whenever possible.
 
 ## Author
 
-- Website - [slightlyfunctional.com](https://slightlyfunctional.com)
-- Frontend Mentor - [@slightlyfunctional](https://www.frontendmentor.io/profile/slightlyfunctional)
+- Frontend Mentor - [@alexl8819](https://www.frontendmentor.io/profile/alexl8819)

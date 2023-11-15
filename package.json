@@ -6,16 +6,17 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build --public-url ./ --dist-dir public"
+    "build": "parcel build --public-url ./ --dist-dir public",
+    "lint": "eslint ./src/**.js --max-warnings=0"
   },
-  "author": "slightlyfunctional",
+  "author": "alexl8819",
   "license": "GPL-3.0-or-later",
   "devDependencies": {
+    "@fontsource/raleway": "^5.0.15",
     "@parcel/transformer-sass": "^2.8.3",
+    "eslint": "^8.53.0",
     "modern-css-reset": "^1.4.0",
-    "parcel": "^2.8.3"
-  },
-  "dependencies": {
-    "@fontsource/raleway": "^4.5.12"
+    "parcel": "^2.8.3",
+    "stylelint": "^15.11.0"
   }
 }
