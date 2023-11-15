@@ -7,7 +7,7 @@
   "scripts": {
     "start": "parcel",
     "build": "parcel build --public-url ./ --dist-dir public",
-    "lint": "eslint ./src/**.js --max-warnings=0"
+    "lint": "stylelint ./src/**.scss && eslint ./src/**.js --max-warnings=0"
   },
   "author": "alexl8819",
   "license": "GPL-3.0-or-later",
@@ -17,6 +17,8 @@
     "eslint": "^8.53.0",
     "modern-css-reset": "^1.4.0",
     "parcel": "^2.8.3",
-    "stylelint": "^15.11.0"
+    "stylelint": "^15.11.0",
+    "stylelint-config-standard-scss": "^11.1.0",
+    "stylelint-selector-bem-pattern": "^3.0.1"
   }
 }
